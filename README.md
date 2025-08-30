@@ -1,4 +1,8 @@
-# Olivier Durand - Persönliche Website
+<div align="center">
+  <img src="assets/images/logo.png" alt="Durand Web Studio Logo" width="300">
+</div>
+
+# Durand Web Studio
 
 Eine moderne, responsive Website gehostet auf Netlify.
 

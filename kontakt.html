@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt – Durand Web Studio</title>
+    <meta name="description" content="Kontaktieren Sie Olivier Durand für Ihr Website-Projekt. Kostenlose Erstberatung, schnelle Antwort, persönlicher Service aus Solothurn.">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>Durand Web Studio</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="leistungen.html">Leistungen</a></li>
+                    <li><a href="preise.html">Preise</a></li>
+                    <li><a href="prozess.html">Prozess</a></li>
+                    <li><a href="ueber-mich.html">Über mich</a></li>
+                    <li><a href="referenzen.html">Referenzen</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="kontakt.html" class="active">Kontakt</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Kontakt</h1>
+                <p>Projekt starten oder Fragen klären</p>
+            </div>
+        </section>
+
+        <section class="contact-hero">
+            <div class="container">
+                <div class="contact-hero-content">
+                    <h2>Kostenloses Erstgespräch</h2>
+                    <p>20 Minuten, online oder telefonisch. Wir besprechen Ihre Ziele, klären offene Fragen und finden die passende Lösung für Ihr Projekt.</p>
+                    
+                    <div class="contact-benefits">
+                        <div class="contact-benefit">
+                            <div class="benefit-icon">⚡</div>
+                            <span>Schnelle Antwort (12-24h)</span>
+                        </div>
+                        <div class="contact-benefit">
+                            <div class="benefit-icon">💰</div>
+                            <span>Kostenlos und unverbindlich</span>
+                        </div>
+                        <div class="contact-benefit">
+                            <div class="benefit-icon">🎯</div>
+                            <span>Konkrete Empfehlungen</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-content">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Kontaktmöglichkeiten</h3>
+                        
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <div class="contact-icon">📧</div>
+                                <div class="contact-details">
+                                    <h4>E-Mail</h4>
+                                    <p><a href="mailto:olivier@durandweb.ch">olivier@durandweb.ch</a></p>
+                                    <small>Antwort in der Regel innert 12 bis 24 Stunden</small>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-method">
+                                <div class="contact-icon">📞</div>
+                                <div class="contact-details">
+                                    <h4>Telefon</h4>
+                                    <p><a href="tel:+41772325653">+41 77 232 56 53</a></p>
+                                    <small>Mo-Fr 9:00-17:00 oder nach Vereinbarung</small>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-method">
+                                <div class="contact-icon">📍</div>
+                                <div class="contact-details">
+                                    <h4>Standort</h4>
+                                    <p>Gerlafingen, Solothurn</p>
+                                    <small>Termine vor Ort nach Vereinbarung</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="response-time">
+                            <h4>Antwortzeit</h4>
+                            <p>In der Regel innert 12 bis 24 Stunden. Bei dringenden Anfragen auch per WhatsApp oder Anruf.</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container">
+                        <h3>Nachricht senden</h3>
+                        <form class="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                            <input type="hidden" name="form-name" value="contact">
+                            <p class="hidden">
+                                <label>Nicht ausfüllen wenn Sie ein Mensch sind: <input name="bot-field"></label>
+                            </p>
+                            
+                            <div class="form-group">
+                                <label for="name">Name *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">E-Mail *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="company">Unternehmen / Verein</label>
+                                <input type="text" id="company" name="company">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="project-type">Projekttyp</label>
+                                <select id="project-type" name="project-type">
+                                    <option value="">Bitte wählen</option>
+                                    <option value="neue-website">Neue Website</option>
+                                    <option value="website-redesign">Website Redesign</option>
+                                    <option value="seo">SEO Optimierung</option>
+                                    <option value="social-media">Social Media</option>
+                                    <option value="branding">Branding</option>
+                                    <option value="beratung">Beratung</option>
+                                    <option value="anderes">Anderes</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Nachricht *</label>
+                                <textarea id="message" name="message" rows="5" required placeholder="Erzählen Sie mir von Ihrem Projekt. Was sind Ihre Ziele? Welchen Zeitrahmen stellen Sie sich vor?"></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="budget">Budget (optional)</label>
+                                <select id="budget" name="budget">
+                                    <option value="">Bitte wählen</option>
+                                    <option value="unter-2000">Unter CHF 2'000</option>
+                                    <option value="2000-5000">CHF 2'000 - 5'000</option>
+                                    <option value="5000-10000">CHF 5'000 - 10'000</option>
+                                    <option value="ueber-10000">Über CHF 10'000</option>
+                                    <option value="monatliches-abo">Monatliches Abo</option>
+                                </select>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-large">Nachricht senden</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="next-steps">
+            <div class="container">
+                <h2>So geht es weiter</h2>
+                <div class="steps-grid">
+                    <div class="step-item">
+                        <div class="step-number">1</div>
+                        <h3>Nachricht senden</h3>
+                        <p>Erzählen Sie mir von Ihrem Projekt und Ihren Zielen</p>
+                    </div>
+                    <div class="step-item">
+                        <div class="step-number">2</div>
+                        <h3>Erstgespräch</h3>
+                        <p>Kostenloses 20-minütiges Gespräch per Telefon oder Video</p>
+                    </div>
+                    <div class="step-item">
+                        <div class="step-number">3</div>
+                        <h3>Angebot</h3>
+                        <p>Konkrete Empfehlung mit transparentem Preis</p>
+                    </div>
+                    <div class="step-item">
+                        <div class="step-number">4</div>
+                        <h3>Projektstart</h3>
+                        <p>Bei Interesse starten wir direkt mit der Umsetzung</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="index.html">Startseite</a></li>
+                    <li><a href="leistungen.html">Leistungen</a></li>
+                    <li><a href="preise.html">Preise</a></li>
+                    <li><a href="referenzen.html">Referenzen</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Kontakt</h4>
+                <p>Durand Web Studio<br>
+                Olivier Durand<br>
+                Gerlafingen, Solothurn</p>
+                <p><a href="mailto:olivier@durandweb.ch">olivier@durandweb.ch</a><br>
+                <a href="tel:+41772325653">+41 77 232 56 53</a></p>
+            </div>
+            <div class="footer-section">
+                <h4>Rechtliches</h4>
+                <ul>
+                    <li><a href="impressum.html">Impressum</a></li>
+                    <li><a href="datenschutz.html">Datenschutz</a></li>
+                    <li><a href="agb.html">AGB</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Durand Web Studio. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

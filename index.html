@@ -3,21 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Olivier Durand - Willkommen</title>
-    <meta name="description" content="Olivier Durand - Persönliche Website">
+    <title>Durand Web Studio – Websites, SEO und Social Media für KMU und Vereine in Solothurn</title>
+    <meta name="description" content="Durand Web Studio erstellt moderne Websites und unterstützt KMU sowie Vereine mit SEO und Social Media. Persönlich, pragmatisch, aus Solothurn für die ganze Schweiz.">
+    <meta name="keywords" content="webdesign solothurn, websites für kmu schweiz, seo solothurn, social media betreuung schweiz, webagentur für vereine">
     <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- Strukturierte Daten -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Durand Web Studio",
+      "url": "https://durandweb.ch",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://durandweb.ch/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Durand Web Studio",
+      "image": "https://durandweb.ch/assets/images/olivier.jpg",
+      "url": "https://durandweb.ch",
+      "telephone": "+41 77 232 56 53",
+      "email": "olivier@durandweb.ch",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Gerlafingen",
+        "addressRegion": "SO",
+        "addressCountry": "CH"
+      },
+      "areaServed": ["Solothurn", "Mittelland", "Schweiz"],
+      "sameAs": [
+        "https://www.linkedin.com/in/olivier-durand"
+      ]
+    }
+    </script>
 </head>
 <body>
     <header>
         <nav>
             <div class="nav-container">
                 <div class="logo">
-                    <h1>Olivier Durand</h1>
+                    <h1>Durand Web Studio</h1>
                 </div>
                 <ul class="nav-menu">
                     <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="about.html">Über mich</a></li>
-                    <li><a href="contact.html">Kontakt</a></li>
+                    <li><a href="leistungen.html">Leistungen</a></li>
+                    <li><a href="preise.html">Preise</a></li>
+                    <li><a href="prozess.html">Prozess</a></li>
+                    <li><a href="ueber-mich.html">Über mich</a></li>
+                    <li><a href="referenzen.html">Referenzen</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
                 </ul>
                 <div class="hamburger">
                     <span class="bar"></span>
@@ -32,46 +75,130 @@
         <section class="hero">
             <div class="hero-content">
                 <div class="hero-text">
-                    <h2>Willkommen auf meiner Website</h2>
-                    <p>Hallo! Ich bin Olivier Durand. Schön, dass Sie hier sind.</p>
+                    <h1>Websites, SEO und Social Media für KMU und Vereine</h1>
+                    <p><strong>Durand Web Studio</strong> macht deinen Auftritt sichtbar, schnell, klar und bezahlbar, persönlich aus Solothurn für die ganze Schweiz.</p>
                     <div class="cta-buttons">
-                        <a href="about.html" class="btn btn-primary">Mehr über mich</a>
-                        <a href="contact.html" class="btn btn-secondary">Kontakt aufnehmen</a>
+                        <a href="kontakt.html" class="btn btn-primary">Kostenloses Erstgespräch buchen</a>
+                        <a href="leistungen.html" class="btn btn-secondary">Leistungen ansehen</a>
                     </div>
                 </div>
                 <div class="hero-image">
-                    <img src="assets/images/olivier.jpg" alt="Olivier Durand" class="profile-image">
+                    <img src="assets/images/olivier.jpg" alt="Olivier Durand - Gründer Durand Web Studio" class="profile-image">
                 </div>
             </div>
         </section>
 
-        <section class="features">
+        <section class="benefits">
             <div class="container">
-                <h3>Was Sie hier finden</h3>
-                <div class="features-grid">
-                    <div class="feature-card">
-                        <div class="feature-icon">👋</div>
-                        <h4>Über mich</h4>
-                        <p>Erfahren Sie mehr über meinen Hintergrund und meine Interessen.</p>
+                <h2>Nutzenversprechen</h2>
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">🎯</div>
+                        <h3>Sichtbar werden</h3>
+                        <p>mit sinnvoller SEO und klaren Inhalten</p>
                     </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">📧</div>
-                        <h4>Kontakt</h4>
-                        <p>Nehmen Sie gerne Kontakt mit mir auf - ich freue mich auf Ihre Nachricht.</p>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">⚡</div>
+                        <h3>Schnell online</h3>
+                        <p>dank schlankem Prozess und modernen Tools</p>
                     </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">🌐</div>
-                        <h4>Online</h4>
-                        <p>Diese Website wird über Netlify gehostet und ist immer aktuell.</p>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">🤝</div>
+                        <h3>Ein Ansprechpartner</h3>
+                        <p>Website, SEO und Social Media aus einer Hand</p>
                     </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">💰</div>
+                        <h3>Fair kalkuliert</h3>
+                        <p>transparente Pakete und laufende Betreuung</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services-teaser">
+            <div class="container">
+                <h2>Leistungen im Überblick</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">🌐</div>
+                        <h3>Websites</h3>
+                        <p>moderne, mobiloptimierte Seiten, die Kunden überzeugen.</p>
+                        <a href="websites.html" class="service-link">Mehr erfahren</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🔍</div>
+                        <h3>SEO</h3>
+                        <p>lokale Sichtbarkeit, bessere Rankings, messbare Resultate.</p>
+                        <a href="seo.html" class="service-link">Mehr erfahren</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">📱</div>
+                        <h3>Social Media</h3>
+                        <p>Strategie, Inhalte und Kampagnen, die wirken.</p>
+                        <a href="social-media.html" class="service-link">Mehr erfahren</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🎨</div>
+                        <h3>Branding</h3>
+                        <p>vom Logo bis zur kompletten Markenidentität.</p>
+                        <a href="branding.html" class="service-link">Mehr erfahren</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="social-proof">
+            <div class="container">
+                <h2>Vertrauen durch Erfahrung</h2>
+                <p>Betreut Projekte für <strong>KMU, Vereine und Bildung</strong>. Ausgewählte Referenzen findest du auf der <a href="referenzen.html">Referenzen-Seite</a>.</p>
+                <div class="cta-center">
+                    <a href="referenzen.html" class="btn btn-secondary">Referenzen ansehen</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-final">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Bereit für deinen professionellen Auftritt?</h2>
+                    <p>Lass uns in einem kostenlosen Erstgespräch über dein Projekt sprechen.</p>
+                    <a href="kontakt.html" class="btn btn-primary btn-large">Kostenloses Erstgespräch buchen</a>
                 </div>
             </div>
         </section>
     </main>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2024 Olivier Durand. Alle Rechte vorbehalten.</p>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="index.html">Startseite</a></li>
+                    <li><a href="leistungen.html">Leistungen</a></li>
+                    <li><a href="preise.html">Preise</a></li>
+                    <li><a href="referenzen.html">Referenzen</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Kontakt</h4>
+                <p>Durand Web Studio<br>
+                Olivier Durand<br>
+                Gerlafingen, Solothurn</p>
+                <p><a href="mailto:olivier@durandweb.ch">olivier@durandweb.ch</a><br>
+                <a href="tel:+41772325653">+41 77 232 56 53</a></p>
+            </div>
+            <div class="footer-section">
+                <h4>Rechtliches</h4>
+                <ul>
+                    <li><a href="impressum.html">Impressum</a></li>
+                    <li><a href="datenschutz.html">Datenschutz</a></li>
+                    <li><a href="agb.html">AGB</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Durand Web Studio. Alle Rechte vorbehalten.</p>
         </div>
     </footer>
 
